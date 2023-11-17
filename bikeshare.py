@@ -57,9 +57,6 @@ def time_stats(df):
     # display the most common day of week
 
 
-    # display the most common start hour
-
-
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -74,9 +71,6 @@ def station_stats(df):
 
 
     # display most commonly used end station
-
-
-    # display most frequent combination of start station and end station trip
 
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -106,9 +100,6 @@ def user_stats(df):
     start_time = time.time()
 
     # Display counts of user types
-
-
-    # Display counts of gender
 
 
     # Display earliest, most recent, and most common year of birth
